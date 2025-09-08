@@ -28,11 +28,11 @@ class WordCounter {
 
         word = ""
       } else {
-        word += char;  // word = word + char
+        word += char;  
       }
     }
 
-    // 👇 único agregado para guardar la última palabra
+
     if (word !== "") {
       if (map.has(word)) {
         const val = map.get(word);
